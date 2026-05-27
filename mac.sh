@@ -38,6 +38,13 @@ if [ ! -d "$ZSH_CUSTOM/plugins/zsh-syntax-highlighting" ]; then
     "$ZSH_CUSTOM/plugins/zsh-syntax-highlighting"
 fi
 
+git config --global user.name "Hannes Gingby"
+git config --global user.email "hannes@gingby.se"
+git config --global init.defaultBranch main
+git config --global core.excludesfile "$HOME/.gitignore"
+curl -fsSL https://raw.githubusercontent.com/github/gitignore/main/Global/macOS.gitignore \
+  > "$HOME/.gitignore"
+
 bash "$CONFIGS/symlink.sh" --mac
 
 echo "Done"

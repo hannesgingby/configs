@@ -2,7 +2,7 @@
 
 ```bash
 cd ~ 
-git clone https://github.com/JINGBY/configs.git
+git clone https://github.com/hannesgingby/configs.git
 ```
 
 ```bash
