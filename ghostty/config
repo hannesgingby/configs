@@ -13,6 +13,8 @@
 font-family = "SF Mono Terminal"
 font-style = Medium
 font-style-bold = SemiBold
+font-thicken = true
+font-thicken-strength = 140
 
 font-size = 16
 
